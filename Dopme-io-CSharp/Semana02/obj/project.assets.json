@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edgar\\source\\repos\\Dopme-io-C#\\Dopme-io-CSharp\\Dopme-io-CSharp\\Semana01\\Semana01.csproj",
-      "projectName": "Semana01",
-      "projectPath": "C:\\Users\\edgar\\source\\repos\\Dopme-io-C#\\Dopme-io-CSharp\\Dopme-io-CSharp\\Semana01\\Semana01.csproj",
+      "projectUniqueName": "C:\\Users\\edgar\\source\\repos\\Dopme-io-C#\\Dopme-io-CSharp\\Dopme-io-CSharp\\Semana02\\Semana02.csproj",
+      "projectName": "Semana02",
+      "projectPath": "C:\\Users\\edgar\\source\\repos\\Dopme-io-C#\\Dopme-io-CSharp\\Dopme-io-CSharp\\Semana02\\Semana02.csproj",
       "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edgar\\source\\repos\\Dopme-io-C#\\Dopme-io-CSharp\\Dopme-io-CSharp\\Semana01\\obj\\",
+      "outputPath": "C:\\Users\\edgar\\source\\repos\\Dopme-io-C#\\Dopme-io-CSharp\\Dopme-io-CSharp\\Semana02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

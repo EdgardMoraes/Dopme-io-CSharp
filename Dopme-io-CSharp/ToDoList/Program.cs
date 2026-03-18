@@ -3,7 +3,7 @@
 using System.Globalization;
 using ToDoList;
 
-List<Tarefa> tarefas = new List<Tarefa>();
+List<ToDoTarefa> tarefas = new List<ToDoTarefa>();
 
 int proximoId = 1;
 
@@ -91,9 +91,9 @@ while (continuar)
             return;
         }
 
-        Tarefa novaTarefa = new Tarefa(proximoId++, descricao);
-        tarefas.Add(novaTarefa);
-        Console.WriteLine($"\n Tarefa #{novaTarefa.Id} Adicionada com sucesso");
+        ToDoTarefa novaToDoTarefa = new ToDoTarefa(proximoId++, descricao);
+        tarefas.Add(novaToDoTarefa);
+        Console.WriteLine($"\n Tarefa #{novaToDoTarefa.Id} Adicionada com sucesso");
     }
 
     void ListarTarefa()
@@ -139,20 +139,20 @@ while (continuar)
             return;
         }
 
-        Tarefa tarefa = EncontrarTarefaPorId(id);
+        ToDoTarefa toDoTarefa = EncontrarTarefaPorId(id);
 
-        if (tarefa == null)
+        if (toDoTarefa == null)
         {
             Console.WriteLine("Tarefa não encontrada");
             return;
         }
 
-        if (tarefa.Concluida)
+        if (toDoTarefa.Concluida)
         {
             Console.WriteLine("Esta tarefa já está concluída");
         }
 
-        tarefa.Concluida = true;
+        toDoTarefa.Concluida = true;
         Console.WriteLine($"\nTarefa #{id} marcada como concluída!");
     }
 
@@ -175,8 +175,8 @@ while (continuar)
             return;
         }
 
-        Tarefa tarefa = EncontrarTarefaPorId(id);
-        if (tarefa == null)
+        ToDoTarefa toDoTarefa = EncontrarTarefaPorId(id);
+        if (toDoTarefa == null)
         {
             Console.WriteLine("Tarefa não encontrada");
             return;
@@ -187,14 +187,14 @@ while (continuar)
 
         if (confirmacao == "S")
         {
-            tarefas.Remove(tarefa);
+            tarefas.Remove(toDoTarefa);
         }
 
     }
 
-    Tarefa EncontrarTarefaPorId(int id)
+    ToDoTarefa EncontrarTarefaPorId(int id)
     {
-        foreach (Tarefa tarefa in tarefas)
+        foreach (ToDoTarefa tarefa in tarefas)
         {
             if (tarefa.Id == id)
             {
@@ -213,7 +213,7 @@ while (continuar)
         Console.WriteLine("ID | Descrição");
         Console.WriteLine("---|---------------------------------");
 
-        foreach (Tarefa tarefa in tarefas)
+        foreach (ToDoTarefa tarefa in tarefas)
         {
             if (tarefa.Concluida == concluida)
             {

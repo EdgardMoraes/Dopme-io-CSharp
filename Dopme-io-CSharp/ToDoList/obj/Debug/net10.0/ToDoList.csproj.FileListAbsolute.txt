@@ -1,0 +1,15 @@
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\bin\Debug\net10.0\ToDoList.exe
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\bin\Debug\net10.0\ToDoList.deps.json
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\bin\Debug\net10.0\ToDoList.runtimeconfig.json
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\bin\Debug\net10.0\ToDoList.dll
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\bin\Debug\net10.0\ToDoList.pdb
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ToDoList.AssemblyInfoInputs.cache
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ToDoList.AssemblyInfo.cs
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ToDoList.sourcelink.json
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ToDoList.dll
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\refint\ToDoList.dll
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ToDoList.pdb
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ToDoList.genruntimeconfig.cache
+C:\Users\edgar\source\repos\Dopme-io-C#\Dopme-io-CSharp\Dopme-io-CSharp\ToDoList\obj\Debug\net10.0\ref\ToDoList.dll

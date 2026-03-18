@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana03", "Semana03\Semana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana04", "Semana04\Semana04.csproj", "{CA1993CB-5FC3-4F08-BA76-7576C710866E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{907309FB-9DC6-404A-B4A5-1D42C736C974}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{CA1993CB-5FC3-4F08-BA76-7576C710866E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1993CB-5FC3-4F08-BA76-7576C710866E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1993CB-5FC3-4F08-BA76-7576C710866E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907309FB-9DC6-404A-B4A5-1D42C736C974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907309FB-9DC6-404A-B4A5-1D42C736C974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907309FB-9DC6-404A-B4A5-1D42C736C974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907309FB-9DC6-404A-B4A5-1D42C736C974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

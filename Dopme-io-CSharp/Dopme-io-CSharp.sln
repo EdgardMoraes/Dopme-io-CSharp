@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaBiblioteca", "Sistem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulo05", "Modulo05\Modulo05.csproj", "{10088750-CB59-4DC3-86AE-720E933C4CCD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulo06", "Modulo06", "{C71806FD-76B7-4183-B3A3-57C0E253E43A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaAPI", "BibliotecaAPI\BibliotecaAPI.csproj", "{28E6F172-ABE5-4A54-93AD-82783B573366}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,12 @@ Global
 		{10088750-CB59-4DC3-86AE-720E933C4CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10088750-CB59-4DC3-86AE-720E933C4CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10088750-CB59-4DC3-86AE-720E933C4CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E6F172-ABE5-4A54-93AD-82783B573366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E6F172-ABE5-4A54-93AD-82783B573366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E6F172-ABE5-4A54-93AD-82783B573366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E6F172-ABE5-4A54-93AD-82783B573366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28E6F172-ABE5-4A54-93AD-82783B573366} = {C71806FD-76B7-4183-B3A3-57C0E253E43A}
 	EndGlobalSection
 EndGlobal

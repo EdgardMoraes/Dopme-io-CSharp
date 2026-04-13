@@ -1,0 +1,6 @@
+@ServiceLifetime_HostAddress = http://localhost:5241
+
+GET {{ServiceLifetime_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -55,5 +55,19 @@ public class ApplicationDbContext : DbContext
             c.Property(c => c.Descricao)
                 .HasMaxLength(100);
         });
+        
+        // Categoria -> Livro (1:N)
+        modelBuilder.Entity<Livro>()
+            .HasOne(l => l.Categoria)
+            .WithMany(c => c.Livros)
+            .HasForeignKey(l => l.CategoriaId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        // Autor -> Livro (1:N)
+        modelBuilder.Entity<Livro>()
+            .HasOne(l => l.Autor)
+            .WithMany(a => a.Livros)
+            .HasForeignKey(l => l.AutorId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

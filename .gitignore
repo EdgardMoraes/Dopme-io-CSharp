@@ -1,1 +1,75 @@
-﻿/Dopme-io-CSharp/SistemaBiblioteca/bin/
+﻿## =========================
+## Build
+## =========================
+bin/
+obj/
+out/
+
+## =========================
+## Visual Studio
+## =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## =========================
+## Rider / VS Code
+## =========================
+.idea/
+.vscode/
+
+## =========================
+## Logs
+## =========================
+*.log
+
+## =========================
+## Arquivos de sistema
+## =========================
+.DS_Store
+Thumbs.db
+
+## =========================
+## NuGet
+## =========================
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+## =========================
+## Entity Framework
+## =========================
+Migrations/*Snapshot.cs
+
+## =========================
+## Testes
+## =========================
+TestResults/
+*.coverage
+*.coveragexml
+
+## =========================
+## Publicação
+## =========================
+publish/
+*.publishsettings
+
+## =========================
+## Secrets / Config
+## =========================
+appsettings.Development.json
+secrets.json
+
+## =========================
+## Docker
+## =========================
+docker-compose.override.yml
+
+## =========================
+## Outros
+## =========================
+*.cache
+*.tmp
